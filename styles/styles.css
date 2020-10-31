@@ -7,8 +7,9 @@ body{
     line-height: 1.5;
     text-align: center;
     background-color: bisque;
-    margin: 0;
-    /* padding: 1rem 20rem 1rem 20rem; */
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 1.5rem;
 }
 h2{
     font-size: 1.5rem;
@@ -42,7 +43,8 @@ a:hover{
     }
     #main{
         margin: 30px 8px;
-        padding: 1rem;
+        padding: 1.5rem;
+        border-radius: 5rem;
     }
     #img{
         max-width: 100%;
