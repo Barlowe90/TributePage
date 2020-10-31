@@ -1,4 +1,4 @@
-*{
+html{
     font-size: 1rem;    
 }
 body{
@@ -7,7 +7,8 @@ body{
     line-height: 1.5;
     text-align: center;
     background-color: bisque;
-    margin: auto;
+    margin: 0;
+    /* padding: 1rem 20rem 1rem 20rem; */
 }
 h2{
     font-size: 1.5rem;
@@ -17,10 +18,14 @@ figcaption{
 }
 /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
 /* User Story #9: The img element should be centered within its parent element. */
-#image{
-    max-width: 100%;
-    border-radius: 20%;
-    height: auto;
+ul{
+    max-width: 55rem;
+    margin: 0 auto 5rem auto;
+    font-style: italic;
+    text-align: left;
+}
+li{
+    margin: 0.5rem;
 }
 a:link{
     color: blue;
@@ -31,6 +36,23 @@ a:visited{
 a:hover{
     color: blue;
 }
-ul{
-    list-style-type: none;
+@media (max-width:600px){
+    h2{
+        font-size: 1.3rem;
+    }
+    #main{
+        margin: 30px 8px;
+        padding: 1rem;
+    }
+    #img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #img-div{
+        border-radius: 20%;
+        margin: 0;
+        padding: 10px;
+    }
 }
