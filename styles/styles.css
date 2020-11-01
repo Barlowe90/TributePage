@@ -14,6 +14,9 @@ body{
 h2{
     font-size: 1.5rem;
 }
+p{
+    text-align: justify;
+}
 figcaption{
     font-size: 1rem;
 }
@@ -21,7 +24,7 @@ figcaption{
 /* User Story #9: The img element should be centered within its parent element. */
 ul{
     max-width: 55rem;
-    margin: 0 auto 5rem auto;
+    /* margin: 0 auto 5rem auto; */
     font-style: italic;
     text-align: left;
 }
@@ -37,24 +40,23 @@ a:visited{
 a:hover{
     color: blue;
 }
-@media (max-width:600px){
+/* @media (max-width:600px){
     h2{
         font-size: 1.3rem;
     }
     #main{
-        margin: 30px 8px;
+        margin: 3rem 0.8rem;
         padding: 1.5rem;
         border-radius: 5rem;
-    }
+    } */
     #img{
         max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
     }
-    #img-div{
-        border-radius: 20%;
-        margin: 0;
-        padding: 10px;
-    }
-}
+    /* #img-div{ */
+        /* margin: 0; */
+        /* padding: 1rem; */
+    /* } */
+/* } */
